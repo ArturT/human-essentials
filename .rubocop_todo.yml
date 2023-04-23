@@ -412,19 +412,6 @@ Lint/SymbolConversion:
     - 'spec/system/request_system_spec.rb'
 
 # Offense count: 1
-# Cop supports --auto-correct.
-# Configuration parameters: MaxKeyValuePairs.
-Performance/RedundantMerge:
-  Exclude:
-    - 'spec/services/kit_create_service_spec.rb'
-
-# Offense count: 2
-# Cop supports --auto-correct.
-Performance/StringReplacement:
-  Exclude:
-    - 'app/helpers/filter_helper.rb'
-
-# Offense count: 1
 # Configuration parameters: Include.
 # Include: app/models/**/*.rb
 Rails/ActiveRecordOverride:
